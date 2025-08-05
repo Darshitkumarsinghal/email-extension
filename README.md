@@ -135,14 +135,26 @@ Content-Type: application/json
 ## 📦 Folder Structure
 
 ```
-his-email-extension/
-│
-├── content.tsx          # Main content script
-├── popup.tsx            # Popup UI (when clicking extension icon)
-├── utils/               # Email validator utils
-├── backend/             # Node.js Express API
-├── build/               # Chrome MV3 output (after build)
-└── plasmo.config.json   # Plasmo config
+email-extension/
+├── extension/                    # Chrome Extension (Plasmo + React)
+│   ├── content.tsx              # Form input listener
+│   ├── popup.tsx                # React popup UI
+│   ├── utils/
+│   │   └── emailValidator.ts
+│   ├── api/
+│   │   └── fetchUser.ts
+│   ├── plasmo-assets/           # UI assets if any
+│   └── ...
+├── backend/                     # Node.js API server
+│   ├── server.js
+│   ├── routes/
+│   │   └── validate.js
+│   ├── utils/
+│   │   └── emailValidator.js
+│   ├── tests/
+│   │   └── validate.test.js
+│   └── package.json
+└── README.md
 ```
 
 ---
