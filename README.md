@@ -91,7 +91,7 @@ POST /api/validate-email
 Content-Type: application/json
 
 {
-  "email": "sudhanshu@mantis.com"
+  "email": "sudhanshu@Mantys.com"
 }
 ```
 
@@ -99,7 +99,7 @@ Content-Type: application/json
 
 ```json
 {
-  "company": "Mantis"
+  "company": "Mantys"
 }
 ```
 
@@ -160,9 +160,9 @@ his-email-extension/
 ## 👨‍💻 Author
 
 **Darshit Kumar Singhal**  
-📧 darshit@example.com  
-🔗 [LinkedIn](https://linkedin.com/in/your-profile)  
-🐙 [GitHub](https://github.com/your-username)
+📧 darshitkumarsinghal.1@gmail.com  
+🔗 [LinkedIn]((https://www.linkedin.com/in/darshit05/))  
+🐙 [GitHub](https://github.com/Darshitkumarsinghal)
 
 ---
 
