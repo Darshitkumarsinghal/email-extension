@@ -6,13 +6,7 @@ This Chrome extension enhances the hospital workflow by automatically detecting 
 
 ---
 
-## 📸 Demo
 
-https://www.loom.com/share/YOUR_DEMO_VIDEO_LINK_HERE
-
-![tooltip-example](demo.png)
-
----
 
 ## 🚀 Features
 
